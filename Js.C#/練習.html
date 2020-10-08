@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>練習網站</title>
+    <script type="text/javascript">
+    function changepic(picurl){
+        document.mypic.src=picurl
+    
+    }
+    </script>
+</head>
+<body>
+<form name="myform">
+    <input type="button" value="館長帥臉" onclick="changepic('館長圖片.jpg')">
+    <input type="button" value="柯文哲" onclick="changepic('柯文哲.jpg')">
+</form>
+    <img name="mypic"  src="館長圖片.jpg" width="10000" height="1000" >
+</body>
+</html>

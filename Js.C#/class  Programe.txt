@@ -1,0 +1,8 @@
+class  Programe
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("大家好~ 歡迎學習C#")
+        Console.ReadKey
+    }
+}
